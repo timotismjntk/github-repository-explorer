@@ -84,7 +84,7 @@ export default function ListRepositories({ user }: { user: User }) {
 
   return (
     <>
-      {repositories.list.slice(0, 2).map((item: Repository, index: number) => (
+      {repositories.list.map((item: Repository, index: number) => (
         <Box
             key={index}
             paddingBlock={4}

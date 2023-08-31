@@ -1,27 +1,62 @@
-# React + TypeScript + Vite
+# GitHub repositories explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitHub repositories explorer is a web application built with React that allows users to search for GitHub users and view their repositories.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Search for GitHub users by username.
+- View a list of users matching the search query.
+- Expand a user to see their repositories.
+- Display repository details such as name, description, and stargazers count.
+- Responsive design for various screen sizes.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Clone the repository:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   git clone https://github.com/timotismjntk/github-repository-explorer.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd github-repository-explorer
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. Open your web browser and visit [http://localhost:5173](http://localhost:5173) to access the app.
+
+## Usage
+
+1. Enter a GitHub username in the search input and press Enter or click the "Search" button.
+2. The app will display a list of users matching the search query.
+3. Click on a user's name to expand and view their repositories.
+4. Repositories are displayed with their name, description, and stargazers count.
+
+## Technologies Used
+
+- React: A JavaScript library for building user interfaces.
+- Framer Motion: A motion library for creating animations and interactive UI elements.
+- Vite: A fast build tool and development server for modern web applications.
+- Redux Toolkit: A state management library for managing the application's state.
+- Chakra UI: A responsive UI framework for building accessible and responsive web applications.
+- Octokit: A GitHub API client for JavaScript.
