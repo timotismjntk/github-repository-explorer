@@ -1,7 +1,7 @@
 import { Octokit } from '@octokit/core'
 
 const octokit = new Octokit({
-    auth: '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',
+    auth: undefined,
     userAgent: "GHP-App",
 })
 
