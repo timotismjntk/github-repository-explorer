@@ -34,13 +34,13 @@ GitHub repositories explorer is a web application built with React that allows u
 3. Install the dependencies:
 
    ```bash
-   npm install
+   yarn
    ```
 
 4. Start the development server:
 
    ```bash
-   npm start
+   yarn dev
    ```
 
 5. Open your web browser and visit [http://localhost:5173](http://localhost:5173) to access the app.
