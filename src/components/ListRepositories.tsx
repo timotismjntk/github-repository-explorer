@@ -97,10 +97,10 @@ export default function ListRepositories({ user }: { user: User }) {
             ml={3}
         >
             <Flex justifyContent="space-between">
-                <Text fontSize="14px" width="75%" lineHeight={1.2} fontWeight="bold">
+                <Text fontSize="14px" width="75%" fontWeight="bold">
                     {item.name}
                 </Text>
-                <Flex alignItems="center" justifyContent="space-between">
+                <Flex alignItems="center" justifyContent="center">
                     <Text fontSize="12px" fontWeight="bold" mr={1}>
                         {item.stargazers_count}
                     </Text>
