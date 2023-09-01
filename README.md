@@ -1,6 +1,6 @@
-# GitHub repositories explorer
+# GitHub Repositories Explorer
 
-GitHub repositories explorer is a web application built with React that allows users to search for GitHub users and view their repositories.
+GitHub Repositories Explorer is a web application built with React that allows users to search for GitHub users and view their repositories.
 
 ## Table of Contents
 
