@@ -8,6 +8,7 @@ GitHub Repositories Explorer is a web application built with React that allows u
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
+- [Preview live demo](#Preview-live-demo)
 
 ## Features
 
@@ -62,4 +63,4 @@ GitHub Repositories Explorer is a web application built with React that allows u
 - Octokit: A GitHub API client for JavaScript.
 
 ## Preview live demo
-[https://timotismjntk.github.io/github-repository-explorer][https://timotismjntk.github.io/github-repository-explorer]
+[https://timotismjntk.github.io/github-repository-explorer](https://timotismjntk.github.io/github-repository-explorer)
