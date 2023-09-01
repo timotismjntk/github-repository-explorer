@@ -60,3 +60,6 @@ GitHub Repositories Explorer is a web application built with React that allows u
 - Redux Toolkit: A state management library for managing the application's state.
 - Chakra UI: A responsive UI framework for building accessible and responsive web applications.
 - Octokit: A GitHub API client for JavaScript.
+
+## Preview live demo
+[https://timotismjntk.github.io/github-repository-explorer][https://timotismjntk.github.io/github-repository-explorer]
