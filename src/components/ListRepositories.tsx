@@ -97,7 +97,7 @@ export default function ListRepositories({ user }: { user: User }) {
             ml={3}
         >
             <Flex justifyContent="space-between">
-                <Text fontSize="14px" fontWeight="bold">
+                <Text fontSize="14px" width="75%" lineHeight={1.2} fontWeight="bold">
                     {item.name}
                 </Text>
                 <Flex alignItems="center" justifyContent="space-between">
